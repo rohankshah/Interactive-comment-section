@@ -1,0 +1,187 @@
+.comment-container {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.comment-score {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  gap: 10px;
+  height: fit-content;
+  padding: 10px 8px;
+  border-radius: 10px;
+  align-items: center;
+  min-width: 2em;
+  font-size: large;
+}
+
+.comment-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.comment-username {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.grayishBlue {
+  color: #67727e;
+}
+
+.moderateBlue {
+  color: hsl(238, 40%, 52%);
+}
+
+.darkBlue {
+  color: hsl(212, 24%, 26%);
+}
+
+.score {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.comment-img {
+  height: 30px;
+  width: 30px;
+}
+
+.reply-img {
+  height: 50px;
+  width: 50px;
+}
+
+.comment-top-left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.created-at {
+  font-size: medium;
+}
+
+.reply-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.nested-comments-container {
+  position: relative;
+}
+
+.nested-comments-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background-color: hsl(223, 19%, 93%);
+  margin-left: 5%;
+}
+
+.nested-comments {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.reply-box {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.reply-button {
+  border: none;
+  padding: 10px 25px;
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  border-radius: 10px;
+  font-size: medium;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.reply-textbox {
+  flex-grow: 10;
+  border: 2px solid hsl(223, 19%, 93%);
+  padding: 10px;
+  border-radius: 10px;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: hsl(238, 40%, 52%);
+}
+
+.you-badge {
+  height: fit-content;
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  padding: 2px 5px;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.editDelete-button {
+  display: flex;
+  gap: 30px;
+}
+
+.edit-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fitWidth {
+  width: fit-content;
+}
